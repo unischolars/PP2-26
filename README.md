@@ -1,6 +1,16 @@
-this is my 2026 pp2 work repositor
-28.01.2026 python basics practice 1 have been added
-05.02.2026 python control flow practice 2 have been added
-20.02.2026 pyhon Functions and Object-Oriented Programming Practice 3 have been added
+## Python JSON parsing
 
+Exercises to parse json data in python
 
+## Exercise 1
+> Using data file `sample-data.json`, create output that resembles the following by parsing the included JSON file.
+
+```
+Interface Status
+================================================================================
+DN                                                 Description           Speed    MTU  
+-------------------------------------------------- --------------------  ------  ------
+topology/pod-1/node-201/sys/phys-[eth1/33]                              inherit   9150 
+topology/pod-1/node-201/sys/phys-[eth1/34]                              inherit   9150 
+topology/pod-1/node-201/sys/phys-[eth1/35]                              inherit   9150 
+```
