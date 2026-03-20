@@ -3,7 +3,7 @@ import json
 with open(r"c:\Users\rozao\Pop\work\Practice-5\raw.txt","r", encoding="utf-8") as f:
     txt = f.read()
 #price like 308,00
-price_pattern=re.compile(r"\b\d[\d ]*,\d{2}\b")
+price_pattern=re.compile(r"Стоимость\s*\n(\b\d[\d ]*,\d{2}\b)")
 price=price_pattern.findall(txt)
 
 #name like 1. then goes string
