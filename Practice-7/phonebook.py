@@ -14,6 +14,7 @@ def create_table():
         )
     """
     try:
+
         config = load_config()
         with psycopg2.connect(**config) as conn:
             with conn.cursor() as cur:
