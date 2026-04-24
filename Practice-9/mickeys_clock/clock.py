@@ -4,7 +4,7 @@ import math
 
 def get_current_time():
     now = datetime.datetime.now()
-    return now.minute, now.second
+    return now.hour, now.second
 
 
 def get_hand_angle(value, max_value):
